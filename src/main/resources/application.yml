@@ -1,0 +1,5 @@
+eureka:
+  instance:
+    status-page-url: http://${eureka.hostname}/info
+    health-check-url: http://${eureka.hostname}/health
+    home-page-url: http://${eureka.hostname}/
